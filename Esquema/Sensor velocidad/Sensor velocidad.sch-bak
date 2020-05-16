@@ -401,14 +401,14 @@ Wire Wire Line
 Wire Wire Line
 	3650 1800 3650 1850
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small Jid
 U 1 1 5EC8EB0F
 P 1600 1250
-F 0 "JP?" V 1600 1298 50  0000 L CNN
+F 0 "Jid" V 1600 1298 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1645 1298 50  0001 L CNN
 F 2 "" H 1600 1250 50  0001 C CNN
 F 3 "~" H 1600 1250 50  0001 C CNN
-F 4 "Medición corriente emisor" V 1600 1250 50  0001 C CNN "Función"
+F 4 "Medición corriente emisor derecho" V 1600 1250 50  0001 C CNN "Función"
 	1    1600 1250
 	0    1    1    0   
 $EndComp
@@ -436,10 +436,10 @@ Connection ~ 1700 1450
 Wire Wire Line
 	1700 1450 1950 1450
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male Jvd
 U 1 1 5EC9AF84
 P 750 2400
-F 0 "J?" H 858 2581 50  0000 C CNN
+F 0 "Jvd" H 858 2581 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 858 2490 50  0000 C CNN
 F 2 "" H 750 2400 50  0001 C CNN
 F 3 "~" H 750 2400 50  0001 C CNN
@@ -509,14 +509,14 @@ Connection ~ 3250 2400
 Wire Wire Line
 	3250 2400 3650 2400
 $Comp
-L Connector:Conn_01x02_Male Jm
+L Connector:Conn_01x02_Male Jved
 U 1 1 5ECC61EA
 P 2450 2400
-F 0 "Jm" H 2558 2581 50  0000 C CNN
+F 0 "Jved" H 2558 2581 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2558 2490 50  0000 C CNN
 F 2 "" H 2450 2400 50  0001 C CNN
 F 3 "~" H 2450 2400 50  0001 C CNN
-F 4 "Medición de osciloscopio" H 2450 2400 50  0001 C CNN "Función"
+F 4 "Medición de osciloscopio receptor derecho" H 2450 2400 50  0001 C CNN "Función"
 	1    2450 2400
 	1    0    0    -1  
 $EndComp
@@ -912,14 +912,14 @@ Wire Wire Line
 Wire Wire Line
 	3700 5450 3700 5500
 $Comp
-L Device:Jumper_NO_Small JP?
+L Device:Jumper_NO_Small Jii
 U 1 1 5ED56F69
 P 1650 4900
-F 0 "JP?" V 1650 4948 50  0000 L CNN
+F 0 "Jii" V 1650 4948 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1695 4948 50  0001 L CNN
 F 2 "" H 1650 4900 50  0001 C CNN
 F 3 "~" H 1650 4900 50  0001 C CNN
-F 4 "Medición corriente emisor" V 1650 4900 50  0001 C CNN "Función"
+F 4 "Medición corriente emisor izquierdo" V 1650 4900 50  0001 C CNN "Función"
 	1    1650 4900
 	0    1    1    0   
 $EndComp
@@ -947,10 +947,10 @@ Connection ~ 1750 5100
 Wire Wire Line
 	1750 5100 2000 5100
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male Jvi
 U 1 1 5ED56F7D
 P 850 6050
-F 0 "J?" H 958 6231 50  0000 C CNN
+F 0 "Jvi" H 958 6231 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 958 6140 50  0000 C CNN
 F 2 "" H 850 6050 50  0001 C CNN
 F 3 "~" H 850 6050 50  0001 C CNN
@@ -1020,14 +1020,14 @@ Connection ~ 3300 6050
 Wire Wire Line
 	3300 6050 3700 6050
 $Comp
-L Connector:Conn_01x02_Male Jm?
+L Connector:Conn_01x02_Male Jvri
 U 1 1 5ED56FA8
 P 2500 6050
-F 0 "Jm?" H 2608 6231 50  0000 C CNN
+F 0 "Jvri" H 2608 6231 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2608 6140 50  0000 C CNN
 F 2 "" H 2500 6050 50  0001 C CNN
 F 3 "~" H 2500 6050 50  0001 C CNN
-F 4 "Medición de osciloscopio" H 2500 6050 50  0001 C CNN "Función"
+F 4 "Medición de osciloscopio receptor izquierdo" H 2500 6050 50  0001 C CNN "Función"
 	1    2500 6050
 	1    0    0    -1  
 $EndComp
