@@ -269,10 +269,10 @@ F 3 " ~" H 6850 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 Jpot
 U 1 1 5EC730C8
 P 3500 6600
-F 0 "J?" H 3418 6275 50  0000 C CNN
+F 0 "Jpot" H 3418 6275 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 3418 6366 50  0000 C CNN
 F 2 "" H 3500 6600 50  0001 C CNN
 F 3 "~" H 3500 6600 50  0001 C CNN
