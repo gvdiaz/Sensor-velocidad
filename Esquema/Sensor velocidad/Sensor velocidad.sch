@@ -334,10 +334,10 @@ F 4 "Configuración de red resistiva 2" V 3250 1250 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jd3
+L Device:Jumper_NO_Small Jdr3
 U 1 1 5EC7AFFE
 P 3650 1250
-F 0 "Jd3" V 3650 1298 50  0000 L CNN
+F 0 "Jdr3" V 3650 1298 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3695 1298 50  0001 L CNN
 F 2 "" H 3650 1250 50  0001 C CNN
 F 3 "~" H 3650 1250 50  0001 C CNN
@@ -438,32 +438,28 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5EC9AF84
-P 850 1200
-F 0 "J?" H 958 1381 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 958 1290 50  0000 C CNN
-F 2 "" H 850 1200 50  0001 C CNN
-F 3 "~" H 850 1200 50  0001 C CNN
-F 4 "Medición tensión en emisor" H 850 1200 50  0001 C CNN "Función"
-	1    850  1200
+P 750 2400
+F 0 "J?" H 858 2581 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 858 2490 50  0000 C CNN
+F 2 "" H 750 2400 50  0001 C CNN
+F 3 "~" H 750 2400 50  0001 C CNN
+F 4 "Medición tensión en emisor" H 750 2400 50  0001 C CNN "Función"
+	1    750  2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1050 1200 1450 1200
-Wire Wire Line
-	1450 1200 1450 1450
 $Comp
 L power:GND #PWR?
 U 1 1 5ECB0A65
-P 1050 1400
-F 0 "#PWR?" H 1050 1150 50  0001 C CNN
-F 1 "GND" H 1055 1227 50  0000 C CNN
-F 2 "" H 1050 1400 50  0001 C CNN
-F 3 "" H 1050 1400 50  0001 C CNN
-	1    1050 1400
+P 950 2600
+F 0 "#PWR?" H 950 2350 50  0001 C CNN
+F 1 "GND" H 955 2427 50  0000 C CNN
+F 2 "" H 950 2600 50  0001 C CNN
+F 3 "" H 950 2600 50  0001 C CNN
+	1    950  2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 1400 1050 1300
+	950  2600 950  2500
 Wire Wire Line
 	3000 1650 3000 1850
 Wire Wire Line
@@ -683,10 +679,10 @@ F 4 "Resistencia para configurar corriente 4" H 2000 5750 50  0001 C CNN "Funci�
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jde?
+L Device:Jumper_NO_Small Jie1
 U 1 1 5ED56EE5
 P 1250 5350
-F 0 "Jde?" V 1250 5398 50  0000 L CNN
+F 0 "Jie1" V 1250 5398 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1295 5398 50  0001 L CNN
 F 2 "" H 1250 5350 50  0001 C CNN
 F 3 "~" H 1250 5350 50  0001 C CNN
@@ -707,10 +703,10 @@ F 4 "Configuración R mínima para medición de sensor óptico" H 2900 5750 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jde?
+L Device:Jumper_NO_Small Jie2
 U 1 1 5ED56EF3
 P 1500 5350
-F 0 "Jde?" V 1500 5398 50  0000 L CNN
+F 0 "Jie2" V 1500 5398 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1545 5398 50  0001 L CNN
 F 2 "" H 1500 5350 50  0001 C CNN
 F 3 "~" H 1500 5350 50  0001 C CNN
@@ -719,10 +715,10 @@ F 4 "Configuración de R 470 Ohm" V 1500 5350 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jde?
+L Device:Jumper_NO_Small Jie3
 U 1 1 5ED56EFA
 P 1750 5350
-F 0 "Jde?" V 1750 5398 50  0000 L CNN
+F 0 "Jie3" V 1750 5398 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1795 5398 50  0001 L CNN
 F 2 "" H 1750 5350 50  0001 C CNN
 F 3 "~" H 1750 5350 50  0001 C CNN
@@ -731,10 +727,10 @@ F 4 "Configuración de R 1 KOhm" V 1750 5350 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jde?
+L Device:Jumper_NO_Small Jie4
 U 1 1 5ED56F01
 P 2000 5350
-F 0 "Jde?" V 2000 5398 50  0000 L CNN
+F 0 "Jie4" V 2000 5398 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 2045 5398 50  0001 L CNN
 F 2 "" H 2000 5350 50  0001 C CNN
 F 3 "~" H 2000 5350 50  0001 C CNN
@@ -825,10 +821,10 @@ F 3 " ~" H 5200 6700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jdr?
+L Device:Jumper_NO_Small Jir1
 U 1 1 5ED56F37
 P 2900 4900
-F 0 "Jdr?" V 2900 4948 50  0000 L CNN
+F 0 "Jir1" V 2900 4948 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 2945 4948 50  0001 L CNN
 F 2 "" H 2900 4900 50  0001 C CNN
 F 3 "~" H 2900 4900 50  0001 C CNN
@@ -837,10 +833,10 @@ F 4 "Configuración de red resistiva 1" V 2900 4900 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jdr?
+L Device:Jumper_NO_Small Jir2
 U 1 1 5ED56F3E
 P 3300 4900
-F 0 "Jdr?" V 3300 4948 50  0000 L CNN
+F 0 "Jir2" V 3300 4948 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3345 4948 50  0001 L CNN
 F 2 "" H 3300 4900 50  0001 C CNN
 F 3 "~" H 3300 4900 50  0001 C CNN
@@ -849,10 +845,10 @@ F 4 "Configuración de red resistiva 2" V 3300 4900 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Jumper_NO_Small Jd?
+L Device:Jumper_NO_Small Jir3
 U 1 1 5ED56F45
 P 3700 4900
-F 0 "Jd?" V 3700 4948 50  0000 L CNN
+F 0 "Jir3" V 3700 4948 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3745 4948 50  0001 L CNN
 F 2 "" H 3700 4900 50  0001 C CNN
 F 3 "~" H 3700 4900 50  0001 C CNN
@@ -953,32 +949,28 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5ED56F7D
-P 900 4850
-F 0 "J?" H 1008 5031 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1008 4940 50  0000 C CNN
-F 2 "" H 900 4850 50  0001 C CNN
-F 3 "~" H 900 4850 50  0001 C CNN
-F 4 "Medición tensión en emisor" H 900 4850 50  0001 C CNN "Función"
-	1    900  4850
+P 850 6050
+F 0 "J?" H 958 6231 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 958 6140 50  0000 C CNN
+F 2 "" H 850 6050 50  0001 C CNN
+F 3 "~" H 850 6050 50  0001 C CNN
+F 4 "Medición tensión en emisor" H 850 6050 50  0001 C CNN "Función"
+	1    850  6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1100 4850 1500 4850
-Wire Wire Line
-	1500 4850 1500 5100
 $Comp
 L power:GND #PWR?
 U 1 1 5ED56F85
-P 1100 5050
-F 0 "#PWR?" H 1100 4800 50  0001 C CNN
-F 1 "GND" H 1105 4877 50  0000 C CNN
-F 2 "" H 1100 5050 50  0001 C CNN
-F 3 "" H 1100 5050 50  0001 C CNN
-	1    1100 5050
+P 1050 6250
+F 0 "#PWR?" H 1050 6000 50  0001 C CNN
+F 1 "GND" H 1055 6077 50  0000 C CNN
+F 2 "" H 1050 6250 50  0001 C CNN
+F 3 "" H 1050 6250 50  0001 C CNN
+	1    1050 6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 5050 1100 4950
+	1050 6250 1050 6150
 Wire Wire Line
 	3050 5300 3050 5500
 Wire Wire Line
@@ -1138,4 +1130,10 @@ Wire Wire Line
 Connection ~ 3950 7050
 Wire Wire Line
 	3950 7050 4150 7050
+Wire Wire Line
+	950  2400 1200 2400
+Connection ~ 1200 2400
+Wire Wire Line
+	1050 6050 1250 6050
+Connection ~ 1250 6050
 $EndSCHEMATC
