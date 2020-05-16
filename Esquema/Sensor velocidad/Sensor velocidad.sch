@@ -302,7 +302,7 @@ F 3 "" H 3850 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 6500 3850 6500
+	3700 6500 3750 6500
 Wire Wire Line
 	3850 6500 3850 6250
 Wire Wire Line
@@ -1170,12 +1170,6 @@ Wire Notes Line
 	8550 3150 6350 3150
 Wire Notes Line
 	950  5700 950  7600
-Wire Notes Line
-	950  7600 4150 7600
-Wire Notes Line
-	4150 7600 4150 5700
-Wire Notes Line
-	4150 5700 950  5700
 Text Notes 600  600  0    50   ~ 0
 Acondicionamiento sensor derecho
 Text Notes 6350 600  0    50   ~ 0
@@ -1186,4 +1180,42 @@ Text Notes 6350 3150 0    50   ~ 0
 Esquema sensor izquierdo
 Text Notes 950  5700 0    50   ~ 0
 Esquema fuente
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EFE7C32
+P 3750 6000
+F 0 "#FLG0101" H 3750 6075 50  0001 C CNN
+F 1 "PWR_FLAG" H 3750 6173 50  0000 C CNN
+F 2 "" H 3750 6000 50  0001 C CNN
+F 3 "~" H 3750 6000 50  0001 C CNN
+	1    3750 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6000 3750 6500
+Connection ~ 3750 6500
+Wire Wire Line
+	3750 6500 3850 6500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5EFFC016
+P 4200 6000
+F 0 "#FLG?" H 4200 6075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4200 6173 50  0000 C CNN
+F 2 "" H 4200 6000 50  0001 C CNN
+F 3 "~" H 4200 6000 50  0001 C CNN
+	1    4200 6000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4500 5700 4500 7600
+Wire Notes Line
+	950  7600 4500 7600
+Wire Notes Line
+	950  5700 4500 5700
+Wire Wire Line
+	4200 6000 4200 6600
+Wire Wire Line
+	4200 6600 3850 6600
+Connection ~ 3850 6600
 $EndSCHEMATC

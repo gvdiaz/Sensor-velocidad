@@ -14,10 +14,10 @@ Comment3 "Fecha inicio: 24/09/2019"
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_vel_bib:TCRT5000_GD U?
+L Sensor_vel_bib:TCRT5000_GD U1
 U 1 1 5D8A6EC4
 P 8000 1800
-F 0 "U?" H 8000 2117 50  0000 C CNN
+F 0 "U1" H 8000 2117 50  0000 C CNN
 F 1 "TCRT5000_GD" H 8000 2026 50  0000 C CNN
 F 2 "" H 8000 1600 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 8000 1900 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 8000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:VSOURCE V?
+L pspice:VSOURCE V1
 U 1 1 5EBDBC13
 P 1550 6600
-F 0 "V?" H 1778 6646 50  0000 L CNN
+F 0 "V1" H 1778 6646 50  0000 L CNN
 F 1 "12 V" H 1778 6555 50  0000 L CNN
 F 2 "" H 1550 6600 50  0001 C CNN
 F 3 "~" H 1550 6600 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 1550 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J5
 U 1 1 5EBDCBA0
 P 3000 6600
-F 0 "J?" H 3050 6400 50  0000 R CNN
+F 0 "J5" H 3050 6400 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 3350 6700 50  0000 R CNN
 F 2 "" H 3000 6600 50  0001 C CNN
 F 3 "~" H 3000 6600 50  0001 C CNN
@@ -63,10 +63,10 @@ Wire Wire Line
 Wire Wire Line
 	2450 6600 2800 6600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR013
 U 1 1 5EBDEA39
 P 2000 7300
-F 0 "#PWR?" H 2000 7050 50  0001 C CNN
+F 0 "#PWR013" H 2000 7050 50  0001 C CNN
 F 1 "GND" H 2005 7127 50  0000 C CNN
 F 2 "" H 2000 7300 50  0001 C CNN
 F 3 "" H 2000 7300 50  0001 C CNN
@@ -79,10 +79,10 @@ Connection ~ 2000 7200
 Wire Wire Line
 	2000 7200 2450 7200
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5EBDFE75
 P 1350 2100
-F 0 "R?" H 1420 2146 50  0000 L CNN
+F 0 "R1" H 1420 2146 50  0000 L CNN
 F 1 "330" H 1420 2055 50  0000 L CNN
 F 2 "" V 1280 2100 50  0001 C CNN
 F 3 "~" H 1350 2100 50  0001 C CNN
@@ -91,10 +91,10 @@ F 4 "Resistencia para configurar corriente 1" H 1350 2100 50  0001 C CNN "Funci�
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5EBE000A
 P 1600 2100
-F 0 "R?" H 1670 2146 50  0000 L CNN
+F 0 "R2" H 1670 2146 50  0000 L CNN
 F 1 "470" H 1670 2055 50  0000 L CNN
 F 2 "" V 1530 2100 50  0001 C CNN
 F 3 "~" H 1600 2100 50  0001 C CNN
@@ -103,10 +103,10 @@ F 4 "Resistencia para configurar corriente 2" H 1600 2100 50  0001 C CNN "Funci�
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5EBE01EF
 P 1850 2100
-F 0 "R?" H 1920 2146 50  0000 L CNN
+F 0 "R3" H 1920 2146 50  0000 L CNN
 F 1 "1 K" H 1920 2055 50  0000 L CNN
 F 2 "" V 1780 2100 50  0001 C CNN
 F 3 "~" H 1850 2100 50  0001 C CNN
@@ -115,10 +115,10 @@ F 4 "Resistencia para configurar corriente 3" H 1850 2100 50  0001 C CNN "Funci�
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 5EBE04B6
 P 2100 2100
-F 0 "R?" H 2170 2146 50  0000 L CNN
+F 0 "R4" H 2170 2146 50  0000 L CNN
 F 1 "10 K" H 2170 2055 50  0000 L CNN
 F 2 "" V 2030 2100 50  0001 C CNN
 F 3 "~" H 2100 2100 50  0001 C CNN
@@ -139,10 +139,10 @@ F 4 "Configuración de R 330 Ohm" V 1350 1700 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 5EBEE8B5
 P 3000 2100
-F 0 "R?" H 3070 2146 50  0000 L CNN
+F 0 "R5" H 3070 2146 50  0000 L CNN
 F 1 "1 K" H 3070 2055 50  0000 L CNN
 F 2 "" V 2930 2100 50  0001 C CNN
 F 3 "~" H 3000 2100 50  0001 C CNN
@@ -187,10 +187,10 @@ F 4 "Configuración de R 330 Ohm" V 2100 1700 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 5EBFEF91
 P 3400 2100
-F 0 "R?" H 3470 2146 50  0000 L CNN
+F 0 "R6" H 3470 2146 50  0000 L CNN
 F 1 "10 K" H 3470 2055 50  0000 L CNN
 F 2 "" V 3330 2100 50  0001 C CNN
 F 3 "~" H 3400 2100 50  0001 C CNN
@@ -199,10 +199,10 @@ F 4 "Configuración R mínima para medición de sensor óptico" H 3400 2100 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 5EBFF2C7
 P 3800 2100
-F 0 "R?" H 3870 2146 50  0000 L CNN
+F 0 "R7" H 3870 2146 50  0000 L CNN
 F 1 "100 K" H 3870 2055 50  0000 L CNN
 F 2 "" V 3730 2100 50  0001 C CNN
 F 3 "~" H 3800 2100 50  0001 C CNN
@@ -211,10 +211,10 @@ F 4 "Configuración R mínima para medición de sensor óptico" H 3800 2100 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV1
 U 1 1 5EBFF98E
 P 3000 1650
-F 0 "RV?" H 2931 1696 50  0000 R CNN
+F 0 "RV1" H 2931 1696 50  0000 R CNN
 F 1 "10 K" H 2931 1605 50  0000 R CNN
 F 2 "" H 3000 1650 50  0001 C CNN
 F 3 "~" H 3000 1650 50  0001 C CNN
@@ -223,10 +223,10 @@ F 4 "Reóstato ajuste de caída de tensión en medición" H 3000 1650 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV2
 U 1 1 5EBFFE4D
 P 3400 1650
-F 0 "RV?" H 3331 1696 50  0000 R CNN
+F 0 "RV2" H 3331 1696 50  0000 R CNN
 F 1 "100 K" H 3331 1605 50  0000 R CNN
 F 2 "" H 3400 1650 50  0001 C CNN
 F 3 "~" H 3400 1650 50  0001 C CNN
@@ -235,10 +235,10 @@ F 4 "Reóstato ajuste de caída de tensión en medición" H 3400 1650 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV3
 U 1 1 5EC00A87
 P 3800 1650
-F 0 "RV?" H 3731 1696 50  0000 R CNN
+F 0 "RV3" H 3731 1696 50  0000 R CNN
 F 1 "1 Meg" H 3731 1605 50  0000 R CNN
 F 2 "" H 3800 1650 50  0001 C CNN
 F 3 "~" H 3800 1650 50  0001 C CNN
@@ -247,10 +247,10 @@ F 4 "Reóstato ajuste de caída de tensión en medición" H 3800 1650 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB9_Female_MountingHoles J?
+L Connector:DB9_Female_MountingHoles J1
 U 1 1 5EC05B93
 P 5500 1650
-F 0 "J?" H 5680 1652 50  0000 L CNN
+F 0 "J1" H 5680 1652 50  0000 L CNN
 F 1 "DB9_Female_MountingHoles" H 5000 900 50  0000 L CNN
 F 2 "" H 5500 1650 50  0001 C CNN
 F 3 " ~" H 5500 1650 50  0001 C CNN
@@ -258,10 +258,10 @@ F 3 " ~" H 5500 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB9_Male_MountingHoles J?
+L Connector:DB9_Male_MountingHoles J2
 U 1 1 5EC0C521
 P 6850 1650
-F 0 "J?" H 7030 1559 50  0000 L CNN
+F 0 "J2" H 7030 1559 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 6150 2250 50  0000 L CNN
 F 2 "" H 6850 1650 50  0001 C CNN
 F 3 " ~" H 6850 1650 50  0001 C CNN
@@ -269,10 +269,10 @@ F 3 " ~" H 6850 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 Jpot
+L Connector:Screw_Terminal_01x02 Jpot1
 U 1 1 5EC730C8
 P 3500 6600
-F 0 "Jpot" H 3418 6275 50  0000 C CNN
+F 0 "Jpot1" H 3418 6275 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 3418 6366 50  0000 C CNN
 F 2 "" H 3500 6600 50  0001 C CNN
 F 3 "~" H 3500 6600 50  0001 C CNN
@@ -280,10 +280,10 @@ F 3 "~" H 3500 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR011
 U 1 1 5EC75814
 P 3850 6250
-F 0 "#PWR?" H 3850 6100 50  0001 C CNN
+F 0 "#PWR011" H 3850 6100 50  0001 C CNN
 F 1 "+12V" H 3865 6423 50  0000 C CNN
 F 2 "" H 3850 6250 50  0001 C CNN
 F 3 "" H 3850 6250 50  0001 C CNN
@@ -291,10 +291,10 @@ F 3 "" H 3850 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR012
 U 1 1 5EC75D26
 P 3850 6750
-F 0 "#PWR?" H 3850 6500 50  0001 C CNN
+F 0 "#PWR012" H 3850 6500 50  0001 C CNN
 F 1 "GND" H 3855 6577 50  0000 C CNN
 F 2 "" H 3850 6750 50  0001 C CNN
 F 3 "" H 3850 6750 50  0001 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 3850 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 6500 3850 6500
+	3700 6500 3750 6500
 Wire Wire Line
 	3850 6500 3850 6250
 Wire Wire Line
@@ -346,10 +346,10 @@ F 4 "Configuración de red resistiva 3" V 3800 1250 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR02
 U 1 1 5EC7B526
 P 1750 1050
-F 0 "#PWR?" H 1750 900 50  0001 C CNN
+F 0 "#PWR02" H 1750 900 50  0001 C CNN
 F 1 "+12V" H 1765 1223 50  0000 C CNN
 F 2 "" H 1750 1050 50  0001 C CNN
 F 3 "" H 1750 1050 50  0001 C CNN
@@ -357,10 +357,10 @@ F 3 "" H 1750 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR01
 U 1 1 5EC7BFCE
 P 3400 850
-F 0 "#PWR?" H 3400 700 50  0001 C CNN
+F 0 "#PWR01" H 3400 700 50  0001 C CNN
 F 1 "+12V" H 3415 1023 50  0000 C CNN
 F 2 "" H 3400 850 50  0001 C CNN
 F 3 "" H 3400 850 50  0001 C CNN
@@ -401,10 +401,10 @@ Wire Wire Line
 Wire Wire Line
 	3800 1800 3800 1850
 $Comp
-L Device:Jumper_NO_Small Jid
+L Device:Jumper_NO_Small Jid1
 U 1 1 5EC8EB0F
 P 1750 1250
-F 0 "Jid" V 1750 1298 50  0000 L CNN
+F 0 "Jid1" V 1750 1298 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1795 1298 50  0001 L CNN
 F 2 "" H 1750 1250 50  0001 C CNN
 F 3 "~" H 1750 1250 50  0001 C CNN
@@ -436,10 +436,10 @@ Connection ~ 1850 1450
 Wire Wire Line
 	1850 1450 2100 1450
 $Comp
-L Connector:Conn_01x02_Male Jvd
+L Connector:Conn_01x02_Male Jvd1
 U 1 1 5EC9AF84
 P 900 2400
-F 0 "Jvd" H 1008 2581 50  0000 C CNN
+F 0 "Jvd1" H 1008 2581 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1008 2490 50  0000 C CNN
 F 2 "" H 900 2400 50  0001 C CNN
 F 3 "~" H 900 2400 50  0001 C CNN
@@ -448,10 +448,10 @@ F 4 "Medición tensión en emisor" H 900 2400 50  0001 C CNN "Función"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5ECB0A65
 P 1100 2600
-F 0 "#PWR?" H 1100 2350 50  0001 C CNN
+F 0 "#PWR04" H 1100 2350 50  0001 C CNN
 F 1 "GND" H 1105 2427 50  0000 C CNN
 F 2 "" H 1100 2600 50  0001 C CNN
 F 3 "" H 1100 2600 50  0001 C CNN
@@ -509,10 +509,10 @@ Connection ~ 3400 2400
 Wire Wire Line
 	3400 2400 3800 2400
 $Comp
-L Connector:Conn_01x02_Male Jved
+L Connector:Conn_01x02_Male Jved1
 U 1 1 5ECC61EA
 P 2600 2400
-F 0 "Jved" H 2708 2581 50  0000 C CNN
+F 0 "Jved1" H 2708 2581 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2708 2490 50  0000 C CNN
 F 2 "" H 2600 2400 50  0001 C CNN
 F 3 "~" H 2600 2400 50  0001 C CNN
@@ -524,10 +524,10 @@ Wire Wire Line
 	2800 2400 3000 2400
 Connection ~ 3000 2400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5ECC85BD
 P 2800 2650
-F 0 "#PWR?" H 2800 2400 50  0001 C CNN
+F 0 "#PWR05" H 2800 2400 50  0001 C CNN
 F 1 "GND" H 2805 2477 50  0000 C CNN
 F 2 "" H 2800 2650 50  0001 C CNN
 F 3 "" H 2800 2650 50  0001 C CNN
@@ -583,10 +583,10 @@ Em_der
 Text Label 5200 1850 2    50   ~ 0
 Rec_der
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 5ECE527A
 P 4650 2100
-F 0 "#PWR?" H 4650 1850 50  0001 C CNN
+F 0 "#PWR03" H 4650 1850 50  0001 C CNN
 F 1 "GND" H 4655 1927 50  0000 C CNN
 F 2 "" H 4650 2100 50  0001 C CNN
 F 3 "" H 4650 2100 50  0001 C CNN
@@ -620,10 +620,10 @@ Connection ~ 5000 2050
 Wire Wire Line
 	5000 2050 5200 2050
 $Comp
-L Sensor_vel_bib:TCRT5000_GD U?
+L Sensor_vel_bib:TCRT5000_GD U2
 U 1 1 5ED56EC2
 P 8000 4150
-F 0 "U?" H 8000 4467 50  0000 C CNN
+F 0 "U2" H 8000 4467 50  0000 C CNN
 F 1 "TCRT5000_GD" H 8000 4376 50  0000 C CNN
 F 2 "" H 8000 3950 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 8000 4250 50  0001 C CNN
@@ -631,10 +631,10 @@ F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 8000 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R8
 U 1 1 5ED56EC9
 P 1200 4700
-F 0 "R?" H 1270 4746 50  0000 L CNN
+F 0 "R8" H 1270 4746 50  0000 L CNN
 F 1 "330" H 1270 4655 50  0000 L CNN
 F 2 "" V 1130 4700 50  0001 C CNN
 F 3 "~" H 1200 4700 50  0001 C CNN
@@ -643,10 +643,10 @@ F 4 "Resistencia para configurar corriente 1" H 1200 4700 50  0001 C CNN "Funci�
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 5ED56ED0
 P 1450 4700
-F 0 "R?" H 1520 4746 50  0000 L CNN
+F 0 "R9" H 1520 4746 50  0000 L CNN
 F 1 "470" H 1520 4655 50  0000 L CNN
 F 2 "" V 1380 4700 50  0001 C CNN
 F 3 "~" H 1450 4700 50  0001 C CNN
@@ -655,10 +655,10 @@ F 4 "Resistencia para configurar corriente 2" H 1450 4700 50  0001 C CNN "Funci�
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 5ED56ED7
 P 1700 4700
-F 0 "R?" H 1770 4746 50  0000 L CNN
+F 0 "R10" H 1770 4746 50  0000 L CNN
 F 1 "1 K" H 1770 4655 50  0000 L CNN
 F 2 "" V 1630 4700 50  0001 C CNN
 F 3 "~" H 1700 4700 50  0001 C CNN
@@ -667,10 +667,10 @@ F 4 "Resistencia para configurar corriente 3" H 1700 4700 50  0001 C CNN "Funci�
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 5ED56EDE
 P 1950 4700
-F 0 "R?" H 2020 4746 50  0000 L CNN
+F 0 "R11" H 2020 4746 50  0000 L CNN
 F 1 "10 K" H 2020 4655 50  0000 L CNN
 F 2 "" V 1880 4700 50  0001 C CNN
 F 3 "~" H 1950 4700 50  0001 C CNN
@@ -691,10 +691,10 @@ F 4 "Configuración de R 330 Ohm" V 1200 4300 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R12
 U 1 1 5ED56EEC
 P 2850 4700
-F 0 "R?" H 2920 4746 50  0000 L CNN
+F 0 "R12" H 2920 4746 50  0000 L CNN
 F 1 "1 K" H 2920 4655 50  0000 L CNN
 F 2 "" V 2780 4700 50  0001 C CNN
 F 3 "~" H 2850 4700 50  0001 C CNN
@@ -739,10 +739,10 @@ F 4 "Configuración de R 330 Ohm" V 1950 4300 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R13
 U 1 1 5ED56F08
 P 3250 4700
-F 0 "R?" H 3320 4746 50  0000 L CNN
+F 0 "R13" H 3320 4746 50  0000 L CNN
 F 1 "10 K" H 3320 4655 50  0000 L CNN
 F 2 "" V 3180 4700 50  0001 C CNN
 F 3 "~" H 3250 4700 50  0001 C CNN
@@ -751,10 +751,10 @@ F 4 "Configuración R mínima para medición de sensor óptico" H 3250 4700 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R14
 U 1 1 5ED56F0F
 P 3650 4700
-F 0 "R?" H 3720 4746 50  0000 L CNN
+F 0 "R14" H 3720 4746 50  0000 L CNN
 F 1 "100 K" H 3720 4655 50  0000 L CNN
 F 2 "" V 3580 4700 50  0001 C CNN
 F 3 "~" H 3650 4700 50  0001 C CNN
@@ -763,10 +763,10 @@ F 4 "Configuración R mínima para medición de sensor óptico" H 3650 4700 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV4
 U 1 1 5ED56F16
 P 2850 4250
-F 0 "RV?" H 2781 4296 50  0000 R CNN
+F 0 "RV4" H 2781 4296 50  0000 R CNN
 F 1 "10 K" H 2781 4205 50  0000 R CNN
 F 2 "" H 2850 4250 50  0001 C CNN
 F 3 "~" H 2850 4250 50  0001 C CNN
@@ -775,10 +775,10 @@ F 4 "Reóstato ajuste de caída de tensión en medición" H 2850 4250 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV5
 U 1 1 5ED56F1D
 P 3250 4250
-F 0 "RV?" H 3181 4296 50  0000 R CNN
+F 0 "RV5" H 3181 4296 50  0000 R CNN
 F 1 "100 K" H 3181 4205 50  0000 R CNN
 F 2 "" H 3250 4250 50  0001 C CNN
 F 3 "~" H 3250 4250 50  0001 C CNN
@@ -787,10 +787,10 @@ F 4 "Reóstato ajuste de caída de tensión en medición" H 3250 4250 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV?
+L Device:R_POT RV6
 U 1 1 5ED56F24
 P 3650 4250
-F 0 "RV?" H 3581 4296 50  0000 R CNN
+F 0 "RV6" H 3581 4296 50  0000 R CNN
 F 1 "1 Meg" H 3581 4205 50  0000 R CNN
 F 2 "" H 3650 4250 50  0001 C CNN
 F 3 "~" H 3650 4250 50  0001 C CNN
@@ -799,10 +799,10 @@ F 4 "Reóstato ajuste de caída de tensión en medición" H 3650 4250 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB9_Female_MountingHoles J?
+L Connector:DB9_Female_MountingHoles J3
 U 1 1 5ED56F2A
 P 5300 3950
-F 0 "J?" H 5480 3952 50  0000 L CNN
+F 0 "J3" H 5480 3952 50  0000 L CNN
 F 1 "DB9_Female_MountingHoles" H 4800 3200 50  0000 L CNN
 F 2 "" H 5300 3950 50  0001 C CNN
 F 3 " ~" H 5300 3950 50  0001 C CNN
@@ -810,10 +810,10 @@ F 3 " ~" H 5300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB9_Male_MountingHoles J?
+L Connector:DB9_Male_MountingHoles J4
 U 1 1 5ED56F30
 P 6850 4000
-F 0 "J?" H 7030 3909 50  0000 L CNN
+F 0 "J4" H 7030 3909 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 6150 4600 50  0000 L CNN
 F 2 "" H 6850 4000 50  0001 C CNN
 F 3 " ~" H 6850 4000 50  0001 C CNN
@@ -857,10 +857,10 @@ F 4 "Configuración de red resistiva 3" V 3650 3850 50  0001 C CNN "Función"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR07
 U 1 1 5ED56F4B
 P 1600 3650
-F 0 "#PWR?" H 1600 3500 50  0001 C CNN
+F 0 "#PWR07" H 1600 3500 50  0001 C CNN
 F 1 "+12V" H 1615 3823 50  0000 C CNN
 F 2 "" H 1600 3650 50  0001 C CNN
 F 3 "" H 1600 3650 50  0001 C CNN
@@ -868,10 +868,10 @@ F 3 "" H 1600 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR06
 U 1 1 5ED56F51
 P 3250 3450
-F 0 "#PWR?" H 3250 3300 50  0001 C CNN
+F 0 "#PWR06" H 3250 3300 50  0001 C CNN
 F 1 "+12V" H 3265 3623 50  0000 C CNN
 F 2 "" H 3250 3450 50  0001 C CNN
 F 3 "" H 3250 3450 50  0001 C CNN
@@ -912,10 +912,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 4400 3650 4450
 $Comp
-L Device:Jumper_NO_Small Jii
+L Device:Jumper_NO_Small Jii1
 U 1 1 5ED56F69
 P 1600 3850
-F 0 "Jii" V 1600 3898 50  0000 L CNN
+F 0 "Jii1" V 1600 3898 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1645 3898 50  0001 L CNN
 F 2 "" H 1600 3850 50  0001 C CNN
 F 3 "~" H 1600 3850 50  0001 C CNN
@@ -947,10 +947,10 @@ Connection ~ 1700 4050
 Wire Wire Line
 	1700 4050 1950 4050
 $Comp
-L Connector:Conn_01x02_Male Jvi
+L Connector:Conn_01x02_Male Jvi1
 U 1 1 5ED56F7D
 P 800 5000
-F 0 "Jvi" H 908 5181 50  0000 C CNN
+F 0 "Jvi1" H 908 5181 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 908 5090 50  0000 C CNN
 F 2 "" H 800 5000 50  0001 C CNN
 F 3 "~" H 800 5000 50  0001 C CNN
@@ -959,10 +959,10 @@ F 4 "Medición tensión en emisor" H 800 5000 50  0001 C CNN "Función"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 5ED56F85
 P 1000 5200
-F 0 "#PWR?" H 1000 4950 50  0001 C CNN
+F 0 "#PWR09" H 1000 4950 50  0001 C CNN
 F 1 "GND" H 1005 5027 50  0000 C CNN
 F 2 "" H 1000 5200 50  0001 C CNN
 F 3 "" H 1000 5200 50  0001 C CNN
@@ -1020,10 +1020,10 @@ Connection ~ 3250 5000
 Wire Wire Line
 	3250 5000 3650 5000
 $Comp
-L Connector:Conn_01x02_Male Jvri
+L Connector:Conn_01x02_Male Jvri1
 U 1 1 5ED56FA8
 P 2450 5000
-F 0 "Jvri" H 2558 5181 50  0000 C CNN
+F 0 "Jvri1" H 2558 5181 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2558 5090 50  0000 C CNN
 F 2 "" H 2450 5000 50  0001 C CNN
 F 3 "~" H 2450 5000 50  0001 C CNN
@@ -1035,10 +1035,10 @@ Wire Wire Line
 	2650 5000 2850 5000
 Connection ~ 2850 5000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5ED56FB0
 P 2650 5250
-F 0 "#PWR?" H 2650 5000 50  0001 C CNN
+F 0 "#PWR010" H 2650 5000 50  0001 C CNN
 F 1 "GND" H 2655 5077 50  0000 C CNN
 F 2 "" H 2650 5250 50  0001 C CNN
 F 3 "" H 2650 5250 50  0001 C CNN
@@ -1094,10 +1094,10 @@ Em_izq
 Text Label 5000 4150 2    50   ~ 0
 Rec_izq
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5ED56FCF
 P 4450 4400
-F 0 "#PWR?" H 4450 4150 50  0001 C CNN
+F 0 "#PWR08" H 4450 4150 50  0001 C CNN
 F 1 "GND" H 4455 4227 50  0000 C CNN
 F 2 "" H 4450 4400 50  0001 C CNN
 F 3 "" H 4450 4400 50  0001 C CNN
@@ -1186,4 +1186,20 @@ Text Notes 6350 3150 0    50   ~ 0
 Esquema sensor izquierdo
 Text Notes 950  5700 0    50   ~ 0
 Esquema fuente
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5EFE7C32
+P 3750 6000
+F 0 "#FLG?" H 3750 6075 50  0001 C CNN
+F 1 "PWR_FLAG" H 3750 6173 50  0000 C CNN
+F 2 "" H 3750 6000 50  0001 C CNN
+F 3 "~" H 3750 6000 50  0001 C CNN
+	1    3750 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6000 3750 6500
+Connection ~ 3750 6500
+Wire Wire Line
+	3750 6500 3850 6500
 $EndSCHEMATC
