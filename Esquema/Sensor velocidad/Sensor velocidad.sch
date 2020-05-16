@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Sensor_vel_bib:TCRT5000_GD U?
 U 1 1 5D8A6EC4
-P 7300 1800
-F 0 "U?" H 7300 2117 50  0000 C CNN
-F 1 "TCRT5000_GD" H 7300 2026 50  0000 C CNN
-F 2 "" H 7300 1600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 7300 1900 50  0001 C CNN
-	1    7300 1800
+P 8000 1800
+F 0 "U?" H 8000 2117 50  0000 C CNN
+F 1 "TCRT5000_GD" H 8000 2026 50  0000 C CNN
+F 2 "" H 8000 1600 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 8000 1900 50  0001 C CNN
+	1    8000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -260,19 +260,19 @@ $EndComp
 $Comp
 L Connector:DB9_Male_MountingHoles J?
 U 1 1 5EC0C521
-P 6150 1650
-F 0 "J?" H 6330 1559 50  0000 L CNN
-F 1 "DB9_Male_MountingHoles" H 5450 2250 50  0000 L CNN
-F 2 "" H 6150 1650 50  0001 C CNN
-F 3 " ~" H 6150 1650 50  0001 C CNN
-	1    6150 1650
+P 6850 1650
+F 0 "J?" H 7030 1559 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" H 6150 2250 50  0000 L CNN
+F 2 "" H 6850 1650 50  0001 C CNN
+F 3 " ~" H 6850 1650 50  0001 C CNN
+	1    6850 1650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 Jpot
 U 1 1 5EC730C8
 P 3500 6600
-F 0 "J?" H 3418 6275 50  0000 C CNN
+F 0 "Jpot" H 3418 6275 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 3418 6366 50  0000 C CNN
 F 2 "" H 3500 6600 50  0001 C CNN
 F 3 "~" H 3500 6600 50  0001 C CNN
@@ -537,43 +537,43 @@ $EndComp
 Wire Wire Line
 	2800 2650 2800 2500
 Wire Wire Line
-	6450 1250 7000 1250
+	7150 1250 7700 1250
 Wire Wire Line
-	7000 1250 7000 1700
+	7700 1250 7700 1700
 Wire Wire Line
-	6450 1450 6650 1450
+	7150 1450 7350 1450
 Wire Wire Line
-	6850 1450 6850 1900
+	7550 1450 7550 1900
 Wire Wire Line
-	6850 1900 7000 1900
+	7550 1900 7700 1900
 Wire Wire Line
-	7600 1900 7600 2000
+	8300 1900 8300 2000
 Wire Wire Line
-	6750 2000 6750 1850
+	7450 2000 7450 1850
 Wire Wire Line
-	6750 1850 6650 1850
+	7450 1850 7350 1850
 Wire Wire Line
-	6450 2050 7700 2050
+	7150 2050 8400 2050
 Wire Wire Line
-	7700 2050 7700 1700
+	8400 2050 8400 1700
 Wire Wire Line
-	7700 1700 7600 1700
+	8400 1700 8300 1700
 Wire Wire Line
-	6150 1050 6150 900 
+	6850 1050 6850 900 
 Wire Wire Line
-	6150 900  6650 900 
+	6850 900  7350 900 
 Wire Wire Line
-	6650 900  6650 1450
-Connection ~ 6650 1450
+	7350 900  7350 1450
+Connection ~ 7350 1450
 Wire Wire Line
-	6650 1450 6850 1450
+	7350 1450 7550 1450
 Wire Wire Line
-	7600 2000 6750 2000
+	8300 2000 7450 2000
 Wire Wire Line
-	6650 1450 6650 1850
-Connection ~ 6650 1850
+	7350 1450 7350 1850
+Connection ~ 7350 1850
 Wire Wire Line
-	6650 1850 6450 1850
+	7350 1850 7150 1850
 Text Label 2100 2400 0    50   ~ 0
 Em_der
 Text Label 3800 2400 0    50   ~ 0
@@ -605,11 +605,11 @@ NoConn ~ 5200 1550
 NoConn ~ 5200 1650
 NoConn ~ 5200 1750
 NoConn ~ 5200 1950
-NoConn ~ 6450 1350
-NoConn ~ 6450 1550
-NoConn ~ 6450 1650
-NoConn ~ 6450 1750
-NoConn ~ 6450 1950
+NoConn ~ 7150 1350
+NoConn ~ 7150 1550
+NoConn ~ 7150 1650
+NoConn ~ 7150 1750
+NoConn ~ 7150 1950
 Wire Wire Line
 	4650 2050 5000 2050
 Wire Wire Line
@@ -622,12 +622,12 @@ Wire Wire Line
 $Comp
 L Sensor_vel_bib:TCRT5000_GD U?
 U 1 1 5ED56EC2
-P 7350 4100
-F 0 "U?" H 7350 4417 50  0000 C CNN
-F 1 "TCRT5000_GD" H 7350 4326 50  0000 C CNN
-F 2 "" H 7350 3900 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 7350 4200 50  0001 C CNN
-	1    7350 4100
+P 8000 4150
+F 0 "U?" H 8000 4467 50  0000 C CNN
+F 1 "TCRT5000_GD" H 8000 4376 50  0000 C CNN
+F 2 "" H 8000 3950 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83760/tcrt5000.pdf" H 8000 4250 50  0001 C CNN
+	1    8000 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -812,12 +812,12 @@ $EndComp
 $Comp
 L Connector:DB9_Male_MountingHoles J?
 U 1 1 5ED56F30
-P 6200 3950
-F 0 "J?" H 6380 3859 50  0000 L CNN
-F 1 "DB9_Male_MountingHoles" H 5500 4550 50  0000 L CNN
-F 2 "" H 6200 3950 50  0001 C CNN
-F 3 " ~" H 6200 3950 50  0001 C CNN
-	1    6200 3950
+P 6850 4000
+F 0 "J?" H 7030 3909 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" H 6150 4600 50  0000 L CNN
+F 2 "" H 6850 4000 50  0001 C CNN
+F 3 " ~" H 6850 4000 50  0001 C CNN
+	1    6850 4000
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1048,43 +1048,43 @@ $EndComp
 Wire Wire Line
 	2650 5250 2650 5100
 Wire Wire Line
-	6500 3550 7050 3550
+	7150 3600 7700 3600
 Wire Wire Line
-	7050 3550 7050 4000
+	7700 3600 7700 4050
 Wire Wire Line
-	6500 3750 6700 3750
+	7150 3800 7350 3800
 Wire Wire Line
-	6900 3750 6900 4200
+	7550 3800 7550 4250
 Wire Wire Line
-	6900 4200 7050 4200
+	7550 4250 7700 4250
 Wire Wire Line
-	7650 4200 7650 4300
+	8300 4250 8300 4350
 Wire Wire Line
-	6800 4300 6800 4150
+	7450 4350 7450 4200
 Wire Wire Line
-	6800 4150 6700 4150
+	7450 4200 7350 4200
 Wire Wire Line
-	6500 4350 7750 4350
+	7150 4400 8400 4400
 Wire Wire Line
-	7750 4350 7750 4000
+	8400 4400 8400 4050
 Wire Wire Line
-	7750 4000 7650 4000
+	8400 4050 8300 4050
 Wire Wire Line
-	6200 3350 6200 3200
+	6850 3400 6850 3250
 Wire Wire Line
-	6200 3200 6700 3200
+	6850 3250 7350 3250
 Wire Wire Line
-	6700 3200 6700 3750
-Connection ~ 6700 3750
+	7350 3250 7350 3800
+Connection ~ 7350 3800
 Wire Wire Line
-	6700 3750 6900 3750
+	7350 3800 7550 3800
 Wire Wire Line
-	7650 4300 6800 4300
+	8300 4350 7450 4350
 Wire Wire Line
-	6700 3750 6700 4150
-Connection ~ 6700 4150
+	7350 3800 7350 4200
+Connection ~ 7350 4200
 Wire Wire Line
-	6700 4150 6500 4150
+	7350 4200 7150 4200
 Text Label 1950 5000 0    50   ~ 0
 Em_izq
 Text Label 3650 5000 0    50   ~ 0
@@ -1116,11 +1116,11 @@ NoConn ~ 5000 3850
 NoConn ~ 5000 3950
 NoConn ~ 5000 4050
 NoConn ~ 5000 4250
-NoConn ~ 6500 3650
-NoConn ~ 6500 3850
-NoConn ~ 6500 3950
-NoConn ~ 6500 4050
-NoConn ~ 6500 4250
+NoConn ~ 7150 3700
+NoConn ~ 7150 3900
+NoConn ~ 7150 4000
+NoConn ~ 7150 4100
+NoConn ~ 7150 4300
 Wire Wire Line
 	4450 4350 4800 4350
 Wire Wire Line
@@ -1136,4 +1136,54 @@ Connection ~ 1350 2400
 Wire Wire Line
 	1000 5000 1200 5000
 Connection ~ 1200 5000
+Wire Notes Line
+	600  600  600  2900
+Wire Notes Line
+	600  2900 6100 2900
+Wire Notes Line
+	6100 2900 6100 600 
+Wire Notes Line
+	6100 600  600  600 
+Wire Notes Line
+	6350 600  6350 2900
+Wire Notes Line
+	6350 2900 8550 2900
+Wire Notes Line
+	8550 2900 8550 600 
+Wire Notes Line
+	8550 600  6350 600 
+Wire Notes Line
+	600  3150 600  5500
+Wire Notes Line
+	600  5500 6100 5500
+Wire Notes Line
+	6100 5500 6100 3150
+Wire Notes Line
+	6100 3150 600  3150
+Wire Notes Line
+	6350 3150 6350 5500
+Wire Notes Line
+	6350 5500 8550 5500
+Wire Notes Line
+	8550 5500 8550 3150
+Wire Notes Line
+	8550 3150 6350 3150
+Wire Notes Line
+	950  5700 950  7600
+Wire Notes Line
+	950  7600 4150 7600
+Wire Notes Line
+	4150 7600 4150 5700
+Wire Notes Line
+	4150 5700 950  5700
+Text Notes 600  600  0    50   ~ 0
+Acondicionamiento sensor derecho
+Text Notes 6350 600  0    50   ~ 0
+Esquema sensor derecho
+Text Notes 600  3150 0    50   ~ 0
+Acondicionamiento sensor izquierdo
+Text Notes 6350 3150 0    50   ~ 0
+Esquema sensor izquierdo
+Text Notes 950  5700 0    50   ~ 0
+Esquema fuente
 $EndSCHEMATC
