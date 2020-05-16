@@ -247,36 +247,14 @@ F 4 "Reóstato ajuste de caída de tensión en medición" H 3800 1650 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:DB9_Female_MountingHoles J1
-U 1 1 5EC05B93
-P 5500 1650
-F 0 "J1" H 5680 1652 50  0000 L CNN
-F 1 "DB9_Female_MountingHoles" H 5000 900 50  0000 L CNN
-F 2 "" H 5500 1650 50  0001 C CNN
-F 3 " ~" H 5500 1650 50  0001 C CNN
-	1    5500 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:DB9_Male_MountingHoles J2
 U 1 1 5EC0C521
 P 6850 1650
 F 0 "J2" H 7030 1559 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 6150 2250 50  0000 L CNN
-F 2 "" H 6850 1650 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6850 1650 50  0001 C CNN
 F 3 " ~" H 6850 1650 50  0001 C CNN
 	1    6850 1650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 Jpot1
-U 1 1 5EC730C8
-P 3500 6600
-F 0 "Jpot1" H 3418 6275 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 3418 6366 50  0000 C CNN
-F 2 "" H 3500 6600 50  0001 C CNN
-F 3 "~" H 3500 6600 50  0001 C CNN
-	1    3500 6600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -301,8 +279,6 @@ F 3 "" H 3850 6750 50  0001 C CNN
 	1    3850 6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3700 6500 3750 6500
 Wire Wire Line
 	3850 6500 3850 6250
 Wire Wire Line
@@ -804,7 +780,7 @@ U 1 1 5ED56F2A
 P 5300 3950
 F 0 "J3" H 5480 3952 50  0000 L CNN
 F 1 "DB9_Female_MountingHoles" H 4800 3200 50  0000 L CNN
-F 2 "" H 5300 3950 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5300 3950 50  0001 C CNN
 F 3 " ~" H 5300 3950 50  0001 C CNN
 	1    5300 3950
 	1    0    0    -1  
@@ -815,7 +791,7 @@ U 1 1 5ED56F30
 P 6850 4000
 F 0 "J4" H 7030 3909 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 6150 4600 50  0000 L CNN
-F 2 "" H 6850 4000 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6850 4000 50  0001 C CNN
 F 3 " ~" H 6850 4000 50  0001 C CNN
 	1    6850 4000
 	-1   0    0    1   
@@ -1172,14 +1148,25 @@ Wire Notes Line
 	950  5700 950  7600
 Text Notes 600  600  0    50   ~ 0
 Acondicionamiento sensor derecho
-Text Notes 6350 600  0    50   ~ 0
-Esquema sensor derecho
 Text Notes 600  3150 0    50   ~ 0
 Acondicionamiento sensor izquierdo
+Text Notes 6350 600  0    50   ~ 0
+Esquema sensor derecho
 Text Notes 6350 3150 0    50   ~ 0
 Esquema sensor izquierdo
 Text Notes 950  5700 0    50   ~ 0
 Esquema fuente
+$Comp
+L Connector:Screw_Terminal_01x02 Jpot1
+U 1 1 5EC730C8
+P 3500 6600
+F 0 "Jpot1" H 3418 6275 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3418 6366 50  0000 C CNN
+F 2 "" H 3500 6600 50  0001 C CNN
+F 3 "~" H 3500 6600 50  0001 C CNN
+	1    3500 6600
+	-1   0    0    1   
+$EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EFE7C32
@@ -1193,29 +1180,42 @@ F 3 "~" H 3750 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3750 6000 3750 6500
-Connection ~ 3750 6500
+Wire Wire Line
+	3700 6500 3750 6500
 Wire Wire Line
 	3750 6500 3850 6500
-$Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5EFFC016
-P 4200 6000
-F 0 "#FLG?" H 4200 6075 50  0001 C CNN
-F 1 "PWR_FLAG" H 4200 6173 50  0000 C CNN
-F 2 "" H 4200 6000 50  0001 C CNN
-F 3 "~" H 4200 6000 50  0001 C CNN
-	1    4200 6000
-	1    0    0    -1  
-$EndComp
+Connection ~ 3750 6500
 Wire Notes Line
 	4500 5700 4500 7600
 Wire Notes Line
 	950  7600 4500 7600
 Wire Notes Line
 	950  5700 4500 5700
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EFFC016
+P 4200 6000
+F 0 "#FLG0102" H 4200 6075 50  0001 C CNN
+F 1 "PWR_FLAG" H 4200 6173 50  0000 C CNN
+F 2 "" H 4200 6000 50  0001 C CNN
+F 3 "~" H 4200 6000 50  0001 C CNN
+	1    4200 6000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4200 6000 4200 6600
 Wire Wire Line
 	4200 6600 3850 6600
 Connection ~ 3850 6600
+$Comp
+L Connector:DB9_Female_MountingHoles J1
+U 1 1 5EC05B93
+P 5500 1650
+F 0 "J1" H 5680 1652 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" H 5000 900 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5500 1650 50  0001 C CNN
+F 3 " ~" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
