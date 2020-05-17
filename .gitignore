@@ -1,3 +1,7 @@
 # Quito los archivos temporales de Libre Office del control de versión
 .~*
 _*
+
+# Quito archivo auxiliar de kicad
+Esquema/Sensor\ velocidad/ftp-info-cache
+
