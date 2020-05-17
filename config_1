@@ -1,0 +1,7 @@
+Título: Registro de rama "config_1"
+Autor: Gustavo V. Diaz
+
+Descripción: Utilizo esta rama para desarrollar la placa con decisiones aquí especificadas
+
+Decisión 1
+Tomé decisión de usar un conector de iguales dimensiones para los conectores de sensores, aunque no cuento actualmente con el conector de pines macho del esquemático de sensor (J2 y J4).
