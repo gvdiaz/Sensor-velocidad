@@ -4,4 +4,9 @@ Autor: Gustavo V. Diaz
 Descripción: Utilizo esta rama para desarrollar la placa con decisiones aquí especificadas
 
 Decisión 1
+Fecha: 17/05/2020
 Tomé decisión de usar un conector de iguales dimensiones para los conectores de sensores, aunque no cuento actualmente con el conector de pines macho del esquemático de sensor (J2 y J4).
+
+Resolución de rama config_1
+Fecha: 18/05/2020
+Encontré conectores entre los materiales que tengo por lo cual ya se resolvió la incertidumbre que tenía.
