@@ -1,9 +1,0 @@
-* C:\users\tanita\Mis Documentos\Negrete\Proyecto balanceadora\Sensor de velocidad\Sensor-velocidad\Filtro\Draft1.asc
-L1 N001 N002 3.8197
-C1 N001 0 5.305µ
-C2 N002 0 5.305µ
-V1 N001 0 AC 1 0
-R1 N002 0 600
-.ac dec 100 1 1k
-.backanno
-.end

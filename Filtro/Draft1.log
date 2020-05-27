@@ -1,8 +1,8 @@
 Circuit: * C:\users\tanita\Mis Documentos\Negrete\Proyecto balanceadora\Sensor de velocidad\Sensor-velocidad\Filtro\Draft1.asc
 
 
-Date: Sun May 24 17:38:29 2020
-Total elapsed time: 0.028 seconds.
+Date: Mon May 25 17:35:55 2020
+Total elapsed time: 0.034 seconds.
 
 tnom = 27
 temp = 27
@@ -12,7 +12,7 @@ traniter = 0
 tranpoints = 0
 accept = 0
 rejected = 0
-matrix size = 3
-fillins = 1
+matrix size = 7
+fillins = 2
 solver = Normal
 
