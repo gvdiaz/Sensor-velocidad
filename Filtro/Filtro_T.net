@@ -1,0 +1,9 @@
+* C:\Users\TEST\Documents\GitHub\Sensor-velocidad\Filtro\Filtro_T.asc
+V1 N001 0 AC 1 0
+L1 N001 N002 1.909
+L2 N002 N003 1.909
+R1 N003 0 600
+C1 N002 0 10.61µ
+.ac dec 100 1 1k
+.backanno
+.end
