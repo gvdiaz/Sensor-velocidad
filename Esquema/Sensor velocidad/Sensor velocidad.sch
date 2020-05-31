@@ -252,7 +252,7 @@ U 1 1 5EC0C521
 P 6850 1650
 F 0 "J2" H 7030 1559 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 6150 2250 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6850 1650 50  0001 C CNN
+F 2 "Proy_sen_vel:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6850 1650 50  0001 C CNN
 F 3 " ~" H 6850 1650 50  0001 C CNN
 	1    6850 1650
 	-1   0    0    1   
@@ -780,7 +780,7 @@ U 1 1 5ED56F2A
 P 5300 3950
 F 0 "J3" H 5480 3952 50  0000 L CNN
 F 1 "DB9_Female_MountingHoles" H 4800 3200 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5300 3950 50  0001 C CNN
+F 2 "Proy_sen_vel:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5300 3950 50  0001 C CNN
 F 3 " ~" H 5300 3950 50  0001 C CNN
 	1    5300 3950
 	1    0    0    -1  
@@ -791,7 +791,7 @@ U 1 1 5ED56F30
 P 6850 4000
 F 0 "J4" H 7030 3909 50  0000 L CNN
 F 1 "DB9_Male_MountingHoles" H 6150 4600 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6850 4000 50  0001 C CNN
+F 2 "Proy_sen_vel:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 6850 4000 50  0001 C CNN
 F 3 " ~" H 6850 4000 50  0001 C CNN
 	1    6850 4000
 	-1   0    0    1   
@@ -1213,7 +1213,7 @@ U 1 1 5EC05B93
 P 5500 1650
 F 0 "J1" H 5680 1652 50  0000 L CNN
 F 1 "DB9_Female_MountingHoles" H 5000 900 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5500 1650 50  0001 C CNN
+F 2 "Proy_sen_vel:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5500 1650 50  0001 C CNN
 F 3 " ~" H 5500 1650 50  0001 C CNN
 	1    5500 1650
 	1    0    0    -1  
