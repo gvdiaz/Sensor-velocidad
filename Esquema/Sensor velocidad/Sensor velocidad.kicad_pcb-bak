@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 0)
@@ -109,5 +109,21 @@
     (uvia_dia 0.3)
     (uvia_drill 0.1)
   )
+
+  (gr_line (start 150 50) (end 185 50) (layer F.SilkS) (width 0.12) (tstamp 5ED448AE))
+  (gr_line (start 185 50) (end 185 65) (layer F.SilkS) (width 0.12))
+  (dimension 35 (width 0.12) (layer F.SilkS)
+    (gr_text "35,000 mm" (at 167.5 43.23) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 185 50) (xy 185 43.913579)))
+    (feature2 (pts (xy 150 50) (xy 150 43.913579)))
+    (crossbar (pts (xy 150 44.5) (xy 185 44.5)))
+    (arrow1a (pts (xy 185 44.5) (xy 183.873496 45.086421)))
+    (arrow1b (pts (xy 185 44.5) (xy 183.873496 43.913579)))
+    (arrow2a (pts (xy 150 44.5) (xy 151.126504 45.086421)))
+    (arrow2b (pts (xy 150 44.5) (xy 151.126504 43.913579)))
+  )
+  (gr_line (start 150 50) (end 150 65) (layer F.SilkS) (width 0.12))
 
 )
