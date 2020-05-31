@@ -132,7 +132,7 @@ U 1 1 5EBE84C8
 P 1350 1700
 F 0 "Jde1" V 1350 1748 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1395 1748 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1350 1700 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1350 1700 50  0001 C CNN
 F 3 "~" H 1350 1700 50  0001 C CNN
 F 4 "Configuración de R 330 Ohm" V 1350 1700 50  0001 C CNN "Función"
 	1    1350 1700
@@ -156,7 +156,7 @@ U 1 1 5EBF036D
 P 1600 1700
 F 0 "Jde2" V 1600 1748 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1645 1748 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1600 1700 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1600 1700 50  0001 C CNN
 F 3 "~" H 1600 1700 50  0001 C CNN
 F 4 "Configuración de R 470 Ohm" V 1600 1700 50  0001 C CNN "Función"
 	1    1600 1700
@@ -168,7 +168,7 @@ U 1 1 5EBF0831
 P 1850 1700
 F 0 "Jde3" V 1850 1748 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1895 1748 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1850 1700 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1850 1700 50  0001 C CNN
 F 3 "~" H 1850 1700 50  0001 C CNN
 F 4 "Configuración de R 1 KOhm" V 1850 1700 50  0001 C CNN "Función"
 	1    1850 1700
@@ -180,7 +180,7 @@ U 1 1 5EBF0DA1
 P 2100 1700
 F 0 "Jde4" V 2100 1748 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 2145 1748 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2100 1700 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 2100 1700 50  0001 C CNN
 F 3 "~" H 2100 1700 50  0001 C CNN
 F 4 "Configuración de R 330 Ohm" V 2100 1700 50  0001 C CNN "Función"
 	1    2100 1700
@@ -291,7 +291,7 @@ U 1 1 5EC7A43E
 P 3000 1250
 F 0 "Jdr1" V 3000 1298 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3045 1298 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3000 1250 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 3000 1250 50  0001 C CNN
 F 3 "~" H 3000 1250 50  0001 C CNN
 F 4 "Configuración de red resistiva 1" V 3000 1250 50  0001 C CNN "Función"
 	1    3000 1250
@@ -303,7 +303,7 @@ U 1 1 5EC7A974
 P 3400 1250
 F 0 "Jdr2" V 3400 1298 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3445 1298 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3400 1250 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 3400 1250 50  0001 C CNN
 F 3 "~" H 3400 1250 50  0001 C CNN
 F 4 "Configuración de red resistiva 2" V 3400 1250 50  0001 C CNN "Función"
 	1    3400 1250
@@ -315,7 +315,7 @@ U 1 1 5EC7AFFE
 P 3800 1250
 F 0 "Jdr3" V 3800 1298 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3845 1298 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3800 1250 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 3800 1250 50  0001 C CNN
 F 3 "~" H 3800 1250 50  0001 C CNN
 F 4 "Configuración de red resistiva 3" V 3800 1250 50  0001 C CNN "Función"
 	1    3800 1250
@@ -382,7 +382,7 @@ U 1 1 5EC8EB0F
 P 1750 1250
 F 0 "Jid1" V 1750 1298 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1795 1298 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1750 1250 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1750 1250 50  0001 C CNN
 F 3 "~" H 1750 1250 50  0001 C CNN
 F 4 "Medición corriente emisor derecho" V 1750 1250 50  0001 C CNN "Función"
 	1    1750 1250
@@ -417,7 +417,7 @@ U 1 1 5EC9AF84
 P 900 2400
 F 0 "Jvd1" H 1008 2581 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1008 2490 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 900 2400 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 900 2400 50  0001 C CNN
 F 3 "~" H 900 2400 50  0001 C CNN
 F 4 "Medición tensión en emisor" H 900 2400 50  0001 C CNN "Función"
 	1    900  2400
@@ -490,7 +490,7 @@ U 1 1 5ECC61EA
 P 2600 2400
 F 0 "Jved1" H 2708 2581 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2708 2490 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2600 2400 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 2600 2400 50  0001 C CNN
 F 3 "~" H 2600 2400 50  0001 C CNN
 F 4 "Medición de osciloscopio receptor derecho" H 2600 2400 50  0001 C CNN "Función"
 	1    2600 2400
@@ -660,7 +660,7 @@ U 1 1 5ED56EE5
 P 1200 4300
 F 0 "Jie1" V 1200 4348 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1245 4348 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1200 4300 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1200 4300 50  0001 C CNN
 F 3 "~" H 1200 4300 50  0001 C CNN
 F 4 "Configuración de R 330 Ohm" V 1200 4300 50  0001 C CNN "Función"
 	1    1200 4300
@@ -684,7 +684,7 @@ U 1 1 5ED56EF3
 P 1450 4300
 F 0 "Jie2" V 1450 4348 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1495 4348 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1450 4300 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1450 4300 50  0001 C CNN
 F 3 "~" H 1450 4300 50  0001 C CNN
 F 4 "Configuración de R 470 Ohm" V 1450 4300 50  0001 C CNN "Función"
 	1    1450 4300
@@ -696,7 +696,7 @@ U 1 1 5ED56EFA
 P 1700 4300
 F 0 "Jie3" V 1700 4348 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1745 4348 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1700 4300 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1700 4300 50  0001 C CNN
 F 3 "~" H 1700 4300 50  0001 C CNN
 F 4 "Configuración de R 1 KOhm" V 1700 4300 50  0001 C CNN "Función"
 	1    1700 4300
@@ -708,7 +708,7 @@ U 1 1 5ED56F01
 P 1950 4300
 F 0 "Jie4" V 1950 4348 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1995 4348 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1950 4300 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1950 4300 50  0001 C CNN
 F 3 "~" H 1950 4300 50  0001 C CNN
 F 4 "Configuración de R 330 Ohm" V 1950 4300 50  0001 C CNN "Función"
 	1    1950 4300
@@ -802,7 +802,7 @@ U 1 1 5ED56F37
 P 2850 3850
 F 0 "Jir1" V 2850 3898 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 2895 3898 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2850 3850 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 2850 3850 50  0001 C CNN
 F 3 "~" H 2850 3850 50  0001 C CNN
 F 4 "Configuración de red resistiva 1" V 2850 3850 50  0001 C CNN "Función"
 	1    2850 3850
@@ -814,7 +814,7 @@ U 1 1 5ED56F3E
 P 3250 3850
 F 0 "Jir2" V 3250 3898 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3295 3898 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3250 3850 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 3250 3850 50  0001 C CNN
 F 3 "~" H 3250 3850 50  0001 C CNN
 F 4 "Configuración de red resistiva 2" V 3250 3850 50  0001 C CNN "Función"
 	1    3250 3850
@@ -826,7 +826,7 @@ U 1 1 5ED56F45
 P 3650 3850
 F 0 "Jir3" V 3650 3898 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 3695 3898 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 3650 3850 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 3650 3850 50  0001 C CNN
 F 3 "~" H 3650 3850 50  0001 C CNN
 F 4 "Configuración de red resistiva 3" V 3650 3850 50  0001 C CNN "Función"
 	1    3650 3850
@@ -893,7 +893,7 @@ U 1 1 5ED56F69
 P 1600 3850
 F 0 "Jii1" V 1600 3898 50  0000 L CNN
 F 1 "Jumper_NO_Small" V 1645 3898 50  0001 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 1600 3850 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 1600 3850 50  0001 C CNN
 F 3 "~" H 1600 3850 50  0001 C CNN
 F 4 "Medición corriente emisor izquierdo" V 1600 3850 50  0001 C CNN "Función"
 	1    1600 3850
@@ -928,7 +928,7 @@ U 1 1 5ED56F7D
 P 800 5000
 F 0 "Jvi1" H 908 5181 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 908 5090 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 800 5000 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 800 5000 50  0001 C CNN
 F 3 "~" H 800 5000 50  0001 C CNN
 F 4 "Medición tensión en emisor" H 800 5000 50  0001 C CNN "Función"
 	1    800  5000
@@ -1001,7 +1001,7 @@ U 1 1 5ED56FA8
 P 2450 5000
 F 0 "Jvri1" H 2558 5181 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 2558 5090 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2450 5000 50  0001 C CNN
+F 2 "Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical" H 2450 5000 50  0001 C CNN
 F 3 "~" H 2450 5000 50  0001 C CNN
 F 4 "Medición de osciloscopio receptor izquierdo" H 2450 5000 50  0001 C CNN "Función"
 	1    2450 5000
