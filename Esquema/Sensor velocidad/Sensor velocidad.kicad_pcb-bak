@@ -13,7 +13,11 @@
   (title_block
     (title "Sensor de velocidad")
     (date 2020-05-31)
+    (rev V.0.1)
+    (company Negrete)
     (comment 1 "Autor: Gustavo V. Diaz")
+    (comment 2 "Buenos Aires - Argentina")
+    (comment 3 "Fecha inicio: 31/05/2020")
   )
 
   (layers
