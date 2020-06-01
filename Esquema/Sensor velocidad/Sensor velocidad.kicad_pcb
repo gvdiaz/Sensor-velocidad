@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.6-c6e7f7d~86~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
 
   (general
     (thickness 1.6)
@@ -69,7 +69,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.05)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFF77F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -260,7 +260,7 @@
     )
   )
 
-  (module Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical (layer F.Cu) (tedit 5EC3C496) (tstamp 5ED45764)
+  (module Proy_sen_vel:PinHeader_1x02_P1.27mm_Vertical (layer F.Cu) (tedit 5EC3C496) (tstamp 5ED5768A)
     (at 49 38.5)
     (descr "Through hole straight pin header, 1x02, 1.27mm pitch, single row")
     (tags "Through hole pin header THT 1x02 1.27mm single row")
@@ -2312,7 +2312,7 @@
   (gr_line (start 226 29.5) (end 226 44.5) (layer F.SilkS) (width 0.12) (tstamp 5ED47323))
   (gr_line (start 225 29.5) (end 226 29.5) (layer F.SilkS) (width 0.12) (tstamp 5ED47329))
   (dimension 36 (width 0.12) (layer F.SilkS) (tstamp 5ED47330)
-    (gr_text "36,000 mm" (at 208 25.23) (layer F.SilkS) (tstamp 5ED47331)
+    (gr_text "36,000 mm" (at 208 25.23) (layer F.SilkS) (tstamp 5ED47330)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 226 29.5) (xy 226 25.913579)))
